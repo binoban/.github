@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a problem with a Binoban public repository or SDK
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a report. For **security vulnerabilities**, do
+        not use this form — email security@binoban.io instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+      placeholder: When I call ... I expected ... but got ...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: sdk-version
+    attributes:
+      label: SDK / package version
+      placeholder: e.g. 0.1.1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, language/runtime, and tooling versions (e.g. Xcode, Android Studio, Node).
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs. Redact any credentials or personal data.
+    validations:
+      required: false
