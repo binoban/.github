@@ -26,6 +26,5 @@ make implementation more predictable, testable, and enterprise-ready.
 
 - Website: https://binoban.io
 - Documentation: https://docs.binoban.io
-- Developer Center: https://developer.binoban.io
 
 Future in your hands.
