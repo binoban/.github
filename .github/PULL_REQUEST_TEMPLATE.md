@@ -1,16 +1,14 @@
-<!-- Organization-wide default PR template. Repos may override with their own. -->
+## What changed and why?
 
-## What does this change?
+<!-- Describe the problem, the change, and any related issue. -->
 
-<!-- A clear, concise description of the change and the motivation. -->
+## How was it checked?
 
-## Related issue
+<!-- List checks and results. Explain any checks not run. -->
 
-<!-- e.g. Closes #123 -->
+## Documentation and compatibility
 
-## Checklist
+<!-- Note updated docs/examples, breaking changes, or write "No impact". -->
 
-- [ ] Changes are focused and described above
-- [ ] No real credentials, customer data, or non-production hosts are included
-- [ ] Public naming follows Binoban standards (Advertiser Portal, Retail Media, Supply / SSP, Exchange)
-- [ ] Docs/examples updated if behavior changed
+Keep credentials, customer data, and private deployment details out of this PR.
+Questions: [tech@binoban.io](mailto:tech@binoban.io).
