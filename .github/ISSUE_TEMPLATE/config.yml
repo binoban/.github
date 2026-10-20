@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Technical support
-    url: mailto:tech@binoban.io
-    about: Questions about integration, accounts, or deployments.
+    url: https://github.com/binoban/.github/blob/main/SUPPORT.md
+    about: Email tech@binoban.io for integration, account, or deployment help.
   - name: Documentation
     url: https://docs.binoban.io
     about: Developer guides and references.
