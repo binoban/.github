@@ -51,7 +51,7 @@ Binoban supports private, on-premise, and white-label deployment models. Integra
 
 ## Get help and contribute
 
-For bugs and feature requests, use the relevant repository's issue tracker and contribution guide. For deployment access or integration assistance, contact [support@binoban.io](mailto:support@binoban.io).
+For bugs and feature requests, use the relevant repository's issue tracker and contribution guide. For deployment access or integration assistance, contact [tech@binoban.io](mailto:tech@binoban.io).
 
 Report vulnerabilities privately using the repository's security policy or the [organization security policy](https://github.com/binoban/.github/blob/main/SECURITY.md).
 
