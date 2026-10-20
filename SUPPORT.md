@@ -1,24 +1,8 @@
-# Support
+# Binoban support
 
-## Documentation first
+- **Guides and setup:** [Developer documentation](https://docs.binoban.io).
+- **Bugs and feature requests:** open an issue in the relevant repository.
+- **Technical, account, or deployment questions:** [tech@binoban.io](mailto:tech@binoban.io).
+- **Security vulnerabilities:** follow the [security policy](https://github.com/binoban/.github/blob/main/SECURITY.md) privately.
 
-Most integration questions are answered in our developer documentation:
-
-- Documentation: https://docs.binoban.io
-- Developer Center: https://developer.binoban.io
-
-## Getting help
-
-| Need | Where to go |
-|---|---|
-| A bug in a public repo / SDK | Open an issue in that repository |
-| A feature request | Open an issue in the relevant repository |
-| Credentials (`apiKey`, `sourceIdentifier`, `apiHost`) | **support@binoban.io** |
-| Account, billing, or deployment questions | **support@binoban.io** |
-| Security vulnerability | **security@binoban.io** (see SECURITY.md) — never a public issue |
-
-## Response expectations
-
-Public repositories are maintained by Binoban Engineering on a best-effort basis.
-Enterprise customers receive support according to their service agreement — contact
-**support@binoban.io**.
+Include the package version, environment, and steps to reproduce. Remove credentials and customer data from logs and screenshots.
