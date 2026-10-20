@@ -1,48 +1,38 @@
 name: Bug report
-description: Report a problem with a Binoban public repository or SDK
+description: Report a reproducible problem.
+title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to file a report. For **security vulnerabilities**, do
-        not use this form — email security@binoban.io instead.
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: A clear description of the bug and what you expected instead.
-      placeholder: When I call ... I expected ... but got ...
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. ...
-        2. ...
-        3. ...
-    validations:
-      required: true
+        For technical support, email [tech@binoban.io](mailto:tech@binoban.io).
+        Report vulnerabilities through the [security policy](https://github.com/binoban/.github/blob/main/SECURITY.md).
+        Remove credentials, customer data, and private deployment details.
   - type: input
-    id: sdk-version
+    id: component-version
     attributes:
-      label: SDK / package version
-      placeholder: e.g. 0.1.1
+      label: Component and version
+      placeholder: "Package and version, commit, or documentation URL"
     validations:
       required: true
   - type: input
     id: environment
     attributes:
       label: Environment
-      description: OS, language/runtime, and tooling versions (e.g. Xcode, Android Studio, Node).
+      placeholder: "OS, browser, runtime, and relevant tool versions"
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: reproduction
     attributes:
-      label: Logs or screenshots
-      description: Paste relevant logs. Redact any credentials or personal data.
+      label: Steps to reproduce
+      description: Include a small reproduction or relevant logs if available.
     validations:
-      required: false
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

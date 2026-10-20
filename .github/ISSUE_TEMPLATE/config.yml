@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security vulnerability
-    url: mailto:security@binoban.io
-    about: Report security issues privately by email — never as a public issue.
-  - name: Credentials, account, or deployment support
-    url: mailto:support@binoban.io
-    about: Request apiKey / sourceIdentifier / apiHost, or ask deployment questions.
+  - name: Technical support
+    url: mailto:tech@binoban.io
+    about: Questions about integration, accounts, or deployments.
   - name: Documentation
     url: https://docs.binoban.io
-    about: Developer guides, API references, and integration docs.
+    about: Developer guides and references.
+  - name: Security vulnerability
+    url: https://github.com/binoban/.github/blob/main/SECURITY.md
+    about: Report privately using the security policy.
