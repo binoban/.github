@@ -10,7 +10,7 @@ inherited by every Binoban repository that does not define its own.
 | Path                               | Purpose                                                              |
 | ---------------------------------- | -------------------------------------------------------------------- |
 | `profile/README.md`                | The public **organization profile** page shown at github.com/binoban |
-| `SECURITY.md`                      | Default security policy (report to security@binoban.io)              |
+| `SECURITY.md`                      | Default security policy (report to tech@binoban.io)              |
 | `CONTRIBUTING.md`                  | Default contribution guidance                                        |
 | `SUPPORT.md`                       | Where to get help                                                    |
 | `CODE_OF_CONDUCT.md`               | Community standards                                                  |

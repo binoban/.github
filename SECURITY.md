@@ -7,7 +7,7 @@ Binoban takes the security of our software and our customers' data seriously.
 If you discover a security vulnerability in any Binoban repository, SDK, or service,
 please report it privately:
 
-- Email **security@binoban.io**
+- Email **tech@binoban.io**
 - Do **not** open a public GitHub issue, pull request, or discussion for security
   vulnerabilities.
 
@@ -25,7 +25,7 @@ acknowledged.
 
 This policy applies to Binoban's public repositories and published SDKs/packages.
 Customer deployments and on-premise environments are covered under their respective
-support agreements — contact **support@binoban.io** for deployment-specific concerns.
+support agreements — contact **tech@binoban.io** for deployment-specific concerns.
 
 ## Please do not
 
